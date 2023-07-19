@@ -1,0 +1,220 @@
+/* Navigation started  */
+#navbar{
+              overflow: hidden;
+              background-color: #213363;
+              display: flex;
+              justify-content: end;
+              position: sticky;
+              top: 0;
+              margin:-8px;
+}
+#navbar a{
+              text-decoration: none;
+              color: whitesmoke;
+              padding: 10px;
+              font-size: 20px;
+              text-align: center;
+}
+#navbar a:hover{
+              background-color:#8EAC50;
+              color: #213363; 
+              border-radius: 10px;
+}
+/* Navigation End  */
+
+
+
+/* Home Started */
+#home{
+              background: #17594A;
+              margin-top: -16px;
+              margin-right: -8px;
+              margin-left: -8px;
+              height: 720px;
+              display: flex;
+}
+.container{
+              color: white;
+              margin: auto;
+              font-size: 50px;
+              line-height: 20px;
+              align-items: center;
+              justify-content: center;
+}
+.p3{
+              font-weight: bolder;
+              word-spacing: 6px;
+              text-decoration: underline;
+}
+/* Home End  */
+
+
+/* Aboutme started */
+#aboutme{
+             background: #8EAC50; 
+
+             margin-left: -8px;
+             margin-right: -8px;
+}
+.aboutme-container{
+              height: 720px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 50px;
+}
+.my-img{
+              padding: 5px 5px 0px 5px;
+              border-radius: 5px;
+              background: whitesmoke;
+}
+.my-img img{
+              border-radius: 5px;
+}
+.my-story{
+              color: white;
+              width: 500px;
+              height: 325px;
+}
+
+/* AboutMe End  */
+
+
+
+/* Project Started */
+#projects{
+              background: #D3D04F;
+              margin-left: -8px;
+              margin-right: -8px;              
+}
+.project-container{
+              height: 735px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+}
+.project-img img{
+              background: whitesmoke;
+              padding: 5px;
+              border-radius: 5px;
+              margin: 22px;
+
+}
+
+/* Project End  */
+
+
+/* ContactMe Started */
+
+#contactme{
+              background: #213363;
+              margin: -20px -8px -20px -8px;
+              color: whitesmoke;
+              height: 600px;
+              padding: 30px;
+
+}
+#contactme h2{
+              font-size: 30px;
+              text-align: center;
+}
+.imgContact {
+              display: flex;
+              gap: 10px;
+              justify-content: space-evenly;
+}
+.imgContact img{
+              margin-top: 40px;
+              background-color: whitesmoke;
+              border-radius: 50%;
+}
+.write{
+              margin-top: 60px;
+              margin-left: 100px; 
+              margin-right: 100px;     
+              display: flex;
+              gap: 40px;
+              justify-content: space-evenly;
+}
+.write label{
+              margin-bottom: 7px;
+              display: block;
+}
+
+/* ContactMe End  */
+
+
+/* footer Started */
+.footer{
+              background: #000;
+              margin: 20px -8px -8px -8px;
+              color: whitesmoke;
+              padding: 10px;
+              display: flex;
+              gap: 10px;
+              justify-content: center;
+
+}
+.footer p{
+              margin: 0px;
+              text-align: center;
+}
+.write{
+              display: inline;
+              text-align: center;
+
+}
+.w1{
+              padding: 10px;
+}
+.w1 input{
+              border-radius: 10px;
+              width: 500px;
+              height: 37px;
+}
+.w1 textarea{
+              border-radius: 10px;
+              width: 500px;
+              height: 150px;
+}
+.btn button {
+              width: 100px;
+              height: 30px;
+              /* font-size: 34px; */
+              font-size: 15px;
+              font-weight: 500 ;
+              border-radius: 10px;
+
+}
+/* footer End  */
+
+
+
+/* Media Query Started  */
+
+@media(max-width:700px) and (min-width:280px){
+              /* home  */
+              .container{
+                            font-size: 40px;
+              }
+              /* home End  */
+
+
+              /* aboutme  */
+              
+              /* aboutme End  */
+
+
+              /* Project Started  */
+
+              #projects{
+                            display: flex;
+
+                            
+              }
+              /* Project End  */
+
+}
+
+/* Media Query End  */
